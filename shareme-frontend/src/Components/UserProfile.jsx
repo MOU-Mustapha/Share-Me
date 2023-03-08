@@ -45,7 +45,6 @@ const UserProfile = () => {
       });
     }
   }, [text, userId]);
-  console.log(pins);
   const handleLogout = () => {
     localStorage.clear();
     navigate("/login");
